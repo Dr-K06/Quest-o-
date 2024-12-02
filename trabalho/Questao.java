@@ -174,7 +174,15 @@ public class Questao {
         quiz[12].opcaoE = "E) Adelaide";
         quiz[12].correta = "D";
 
-        
+        quiz[13] = new Questao();
+        quiz[13].pergunta = "Qual é a capital do México?";
+        quiz[13].opcaoA = "A) Cancún";
+        quiz[13].opcaoB = "B) Cidade do México";
+        quiz[13].opcaoC = "C) Monterrey";
+        quiz[13].opcaoD = "D) Guadalajara";
+        quiz[13].opcaoE = "E) Tijuana";
+        quiz[13].correta = "B";
+
     }
 }
 
