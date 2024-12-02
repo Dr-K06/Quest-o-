@@ -120,6 +120,14 @@ public class Questao {
         quiz[6].opcaoE = "E) Porto Alegre";
         quiz[6].correta = "C";
 
+        quiz[7] = new Questao();
+        quiz[7].pergunta = "Qual é a capital do Egito?";
+        quiz[7].opcaoA = "A) Cairo";
+        quiz[7].opcaoB = "B) Rabat";
+        quiz[7].opcaoC = "C) Damasco";
+        quiz[7].opcaoD = "D) Nairobi";
+        quiz[7].opcaoE = "E) Algiers";
+        quiz[7].correta = "A";
     }
 }
 
