@@ -110,6 +110,16 @@ public class Questao {
         quiz[5].opcaoD = "D) Montevidéu";
         quiz[5].opcaoE = "E) Bogotá";
         quiz[5].correta = "B";
+
+        quiz[6] = new Questao();
+        quiz[6].pergunta = "Qual é a capital do Brasil?";
+        quiz[6].opcaoA = "A) Rio de Janeiro";
+        quiz[6].opcaoB = "B) São Paulo";
+        quiz[6].opcaoC = "C) Brasília";
+        quiz[6].opcaoD = "D) Salvador";
+        quiz[6].opcaoE = "E) Porto Alegre";
+        quiz[6].correta = "C";
+
     }
 }
 
