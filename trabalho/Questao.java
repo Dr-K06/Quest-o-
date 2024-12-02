@@ -183,6 +183,16 @@ public class Questao {
         quiz[13].opcaoE = "E) Tijuana";
         quiz[13].correta = "B";
 
+        quiz[14] = new Questao();
+        quiz[14].pergunta = "Qual é a capital do Chile?";
+        quiz[14].opcaoA = "A) Santiago";
+        quiz[14].opcaoB = "B) Valparaíso";
+        quiz[14].opcaoC = "C) Concepción";
+        quiz[14].opcaoD = "D) Antofagasta";
+        quiz[14].opcaoE = "E) La Serena";
+        quiz[14].correta = "A";
+
+
     }
 }
 
