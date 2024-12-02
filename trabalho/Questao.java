@@ -202,6 +202,7 @@ public class Questao {
             }
         }
 
+        System.out.println("Você acertou " + score + " de 15 perguntas!");
 
     }
 }
