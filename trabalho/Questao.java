@@ -102,6 +102,14 @@ public class Questao {
         quiz[4].opcaoE = "E) Tbilisi";
         quiz[4].correta = "A";
 
+        quiz[5] = new Questao();
+        quiz[5].pergunta = "Qual é a capital da Argentina?";
+        quiz[5].opcaoA = "A) Santiago";
+        quiz[5].opcaoB = "B) Buenos Aires";
+        quiz[5].opcaoC = "C) Lima";
+        quiz[5].opcaoD = "D) Montevidéu";
+        quiz[5].opcaoE = "E) Bogotá";
+        quiz[5].correta = "B";
     }
 }
 
