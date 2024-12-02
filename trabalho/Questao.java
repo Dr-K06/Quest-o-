@@ -128,6 +128,17 @@ public class Questao {
         quiz[7].opcaoD = "D) Nairobi";
         quiz[7].opcaoE = "E) Algiers";
         quiz[7].correta = "A";
+
+        quiz[8] = new Questao();
+        quiz[8].pergunta = "Qual é a capital dos Estados Unidos?";
+        quiz[8].opcaoA = "A) Los Angeles";
+        quiz[8].opcaoB = "B) Nova York";
+        quiz[8].opcaoC = "C) Washington, D.C.";
+        quiz[8].opcaoD = "D) Chicago";
+        quiz[8].opcaoE = "E) Boston";
+        quiz[8].correta = "C";
+
+        
     }
 }
 
