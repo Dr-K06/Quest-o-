@@ -205,6 +205,8 @@ public class Questao {
         }
 
         System.out.println("Você acertou " + score + " de 15 perguntas!");
+        double porcentagemAcertos = ((double) score / 15) * 100;
+        System.out.println("Porcentagem de acertos: " + porcentagemAcertos + " de 100%");
 
     }
 }
