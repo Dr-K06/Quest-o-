@@ -192,6 +192,16 @@ public class Questao {
         quiz[14].opcaoE = "E) La Serena";
         quiz[14].correta = "A";
 
+        // Executando o quiz
+        int score = 0;
+        for (Questao questao : quiz) {
+            questao.escrevaQuestao();
+            String resposta = questao.leiaResposta();
+            if (questao.isCorreta(resposta)) {
+                score++;
+            }
+        }
+
 
     }
 }
