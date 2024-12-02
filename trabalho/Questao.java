@@ -156,6 +156,14 @@ public class Questao {
         quiz[10].opcaoE = "E) Bilbao";
         quiz[10].correta = "A";
 
+        quiz[11] = new Questao();
+        quiz[11].pergunta = "Qual é a capital da Índia?";
+        quiz[11].opcaoA = "A) Mumbai";
+        quiz[11].opcaoB = "B) Calcutá";
+        quiz[11].opcaoC = "C) Nova Délhi";
+        quiz[11].opcaoD = "D) Bangalore";
+        quiz[11].opcaoE = "E) Chennai";
+        quiz[11].correta = "C";
     }
 }
 
