@@ -147,6 +147,15 @@ public class Questao {
         quiz[9].opcaoE = "E) Turim";
         quiz[9].correta = "A";
 
+        quiz[10] = new Questao();
+        quiz[10].pergunta = "Qual é a capital da Espanha?";
+        quiz[10].opcaoA = "A) Madrid";
+        quiz[10].opcaoB = "B) Barcelona";
+        quiz[10].opcaoC = "C) Valência";
+        quiz[10].opcaoD = "D) Sevilha";
+        quiz[10].opcaoE = "E) Bilbao";
+        quiz[10].correta = "A";
+
     }
 }
 
