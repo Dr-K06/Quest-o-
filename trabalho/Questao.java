@@ -138,7 +138,15 @@ public class Questao {
         quiz[8].opcaoE = "E) Boston";
         quiz[8].correta = "C";
 
-        
+        quiz[9] = new Questao();
+        quiz[9].pergunta = "Qual é a capital da Itália?";
+        quiz[9].opcaoA = "A) Roma";
+        quiz[9].opcaoB = "B) Milão";
+        quiz[9].opcaoC = "C) Veneza";
+        quiz[9].opcaoD = "D) Florença";
+        quiz[9].opcaoE = "E) Turim";
+        quiz[9].correta = "A";
+
     }
 }
 
