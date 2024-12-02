@@ -84,4 +84,24 @@ public class Questao {
         quiz[2].opcaoE = "E) Hong Kong";
         quiz[2].correta = "C";
         
-        
+        quiz[3] = new Questao();
+        quiz[3].pergunta = "Qual é a capital do Canadá?";
+        quiz[3].opcaoA = "A) Montreal";
+        quiz[3].opcaoB = "B) Ottawa";
+        quiz[3].opcaoC = "C) Toronto";
+        quiz[3].opcaoD = "D) Vancouver";
+        quiz[3].opcaoE = "E) Calgary";
+        quiz[3].correta = "B";
+
+        quiz[4] = new Questao();
+        quiz[4].pergunta = "Qual é a capital da Rússia?";
+        quiz[4].opcaoA = "A) Moscou";
+        quiz[4].opcaoB = "B) São Petersburgo";
+        quiz[4].opcaoC = "C) Kiev";
+        quiz[4].opcaoD = "D) Varsóvia";
+        quiz[4].opcaoE = "E) Tbilisi";
+        quiz[4].correta = "A";
+
+    }
+}
+
