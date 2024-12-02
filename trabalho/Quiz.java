@@ -153,5 +153,5 @@ public class Quiz {
         double porcentagemAcertos = ((double) score / 15) * 100;
     System.out.println("Porcentagem de acertos: " + porcentagemAcertos + " de 100%");
 
-  }
+   }
 }
