@@ -8,7 +8,7 @@ public class Questao {
     String opcaoD = "";
     String opcaoE = "";
     String correta = "";
-    
+
     public boolean isCorreta(String resposta) {
         if (resposta.equalsIgnoreCase(this.correta)) {
             System.out.println("Parabéns resposta Correta! - Letra: " + this.correta);
@@ -55,6 +55,8 @@ public class Questao {
     
     public static void main(String[] args) {
         Questao[] quiz = new Questao[15];
+        System.out.println("Nome da Faculdade: UNIFAN\n Nome do Aluno: Carlos Eduardo Sousa Costa\n Nome do Professor: Brenno Pimenta\n");
+        System.out.println("------------------------------------------------------------------------------------------\n Sejam Bem vindos ao Quiz de 15 perguntas sobre capitais de alguns países!\n------------------------------------------------------------------------------------------");
 
         // Criando as 15 questões sobre capitais de países
         quiz[0] = new Questao();
