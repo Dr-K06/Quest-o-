@@ -164,6 +164,17 @@ public class Questao {
         quiz[11].opcaoD = "D) Bangalore";
         quiz[11].opcaoE = "E) Chennai";
         quiz[11].correta = "C";
+
+        quiz[12] = new Questao();
+        quiz[12].pergunta = "Qual é a capital da Austrália?";
+        quiz[12].opcaoA = "A) Sydney";
+        quiz[12].opcaoB = "B) Melbourne";
+        quiz[12].opcaoC = "C) Perth";
+        quiz[12].opcaoD = "D) Canberra";
+        quiz[12].opcaoE = "E) Adelaide";
+        quiz[12].correta = "D";
+
+        
     }
 }
 
